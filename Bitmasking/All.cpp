@@ -16,14 +16,14 @@ bool is_Odd(int n) {
 
 //Find ith bit
 int get_ith_bit(int n,int i) {
-    int mask = (1<<i);
+    int mask = (1<<i); // creating a mask
     int bit = (n&mask)>0 : 1 ? 0;
     return bit;
 }
 
 //Set ith bit to 1
 int set_ith_bit(int n, int i) {
-    int mask = 1<<i;
+    int mask = 1<<i; //creating a mask
     int ans = n|mask;
     return ans;
 }

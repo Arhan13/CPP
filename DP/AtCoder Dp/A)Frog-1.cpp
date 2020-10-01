@@ -1,5 +1,6 @@
 //Template
 //Frog 1 Dp series AtCoder
+
 #include <bits/stdc++.h>
 using namespace std;
 #define rep(i,a,n) for(int i=int (a);i<int (n);i++)
@@ -12,10 +13,12 @@ typedef long long ll;
 
 int main(){
 ios::sync_with_stdio(0);cin.tie(0);
+    
 // #ifndef ONLINE_JUDGE
 //     freopen("input.txt", "r", stdin);
 //     freopen("output.txt", "w", stdout);
 // #endif
+    
     int n;cin>>n;
     vector<int> arr(n+1);
     for(int i=1;i<=n;i++){
@@ -29,5 +32,6 @@ ios::sync_with_stdio(0);cin.tie(0);
         dp[i] = min(option2, option1);
     }
     cout<<dp[n];
+    
     return 0;
 }

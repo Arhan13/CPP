@@ -1,4 +1,5 @@
 /* C++ implementation of QuickSort */
+/* It's best time complexity is O(1)
 #include <bits/stdc++.h> 
 using namespace std; 
 

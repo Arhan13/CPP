@@ -65,7 +65,7 @@ void printLL(node* head) {
 int main(){
 ios::sync_with_stdio(0);cin.tie(0);
     node* head = NULL;
-    insertAtHead(head, 5);
+    insertAtHead(head, 5); //inserts new element at starting if list
     insertAtHead(head, 4);
     insertAtTail(head, 6);
     printLL(head);

@@ -10,14 +10,16 @@
 #define um unordered_map
 typedef long long ll; 
 using namespace std;
+
 int main(){
 ios::sync_with_stdio(0);cin.tie(0);
+    
 // #ifndef ONLINE_JUDGE
 //     freopen("input.txt", "r", stdin);
 //     freopen("output.txt", "w", stdout);
 // #endif
-    int n;cin>>n;
-    int k;cin>>k;
+    
+    int n k; cin>>n>>k;
     vi arr(n+1);
     for(int i=1;i<=n;i++){
         cin>>arr[i];
@@ -31,5 +33,6 @@ ios::sync_with_stdio(0);cin.tie(0);
         }
     }
     cout<<dp[n]<<endl;
+    
     return 0;
 }

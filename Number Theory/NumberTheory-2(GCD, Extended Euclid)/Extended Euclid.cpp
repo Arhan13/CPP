@@ -1,4 +1,4 @@
-//Template
+//CODE FOR EXTENDED EUCLID
 #include <bits/stdc++.h>
 #define rep(i,a,n) for(int i=int (a);i<int (n);i++)
 #define endl "\n"

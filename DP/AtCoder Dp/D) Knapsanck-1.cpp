@@ -16,10 +16,12 @@ struct item {
 
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
+    
 // #ifndef ONLINE_JUDGE
 //     freopen("input.txt", "r", stdin);
 //     freopen("output.txt", "w", stdout);
 // #endif
+    
     // int n,w;cin>>n>>w;
     // vector<pair<int, int>> v;
     // for(int i=1;i<=n;i++){
@@ -43,6 +45,7 @@ int main() {
     //     }
     // }
     // cout<<dp[n][w]<<endl;
+    
     ll n, W; cin >> n >> W;
     vector<item> arr(n + 1);
     for (ll i = 1; i <= n; i++) {
@@ -70,5 +73,6 @@ int main() {
         }
     }
     cout<<*max_element(dp[n], dp[n]+W+1);
+    
     return 0;
 }

@@ -28,11 +28,13 @@ int solve(vector<activity> arr, int n){
 
 int main() {
 	ios::sync_with_stdio(0); cin.tie(0);
+	
 #ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
 #endif
 	return 0;
+	
 	int n; cin >> n;
 	vector<activity> arr(n + 1);
 	for (int i = 1; i<=n; i++) {

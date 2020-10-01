@@ -44,7 +44,7 @@ void big_factorial(int number)
     {
         cout << a[i] << " ";
     }
-    delete[] a;
+    delete[] a; //deleting the array to free its memory
     return;
 }
 int main()
@@ -53,6 +53,6 @@ int main()
     cin.tie(0);
     int n;
     cin>>n;
-    big_factorial(n);
+    big_factorial(n); // calling the function
     return 0;
 }

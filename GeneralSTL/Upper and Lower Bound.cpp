@@ -5,7 +5,7 @@ using namespace std;
       int s=0;
       int e=n-1;
        int ans=-1;
-
+   //using binary search 
       while(s<=e)
       {
           int mid=(s+e)/2;
@@ -36,7 +36,7 @@ using namespace std;
       int s=0;
       int e=n-1;
        int ans=-1;
-
+ //using binary search 
       while(s<=e)
       {
           int mid=(s+e)/2;

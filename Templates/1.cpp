@@ -59,8 +59,8 @@ int main()
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
 	#endif
-	int t;
-	cin>>t;
+	
+	int t; cin>>t; //testcases
 	while(t--)
 	{
 		ll n;

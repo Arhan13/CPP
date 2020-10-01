@@ -68,7 +68,7 @@ ll T,n,x,y,d,m;
  
 int main(){
     cin.tie(0)->sync_with_stdio(0);
-    cin>>T;
+    cin>>T; //testcases
     while(T--){
         cin>>n>>x>>y;
         fori(1,50) if((y-x)%i==0&&i*(n-1)>=y-x){

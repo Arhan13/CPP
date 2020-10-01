@@ -23,9 +23,15 @@
 #define iter(c) typeof(c.begin())
 #define foreach(it, c) for(iter(c) it = c.begin(); it != c.end(); it++)
 using namespace std;
+
+
 int main(){
 ios::sync_with_stdio(0);cin.tie(0);
 
+    
+    
+    
+    
+    
     return 0;
-
 }
